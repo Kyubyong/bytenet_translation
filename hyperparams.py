@@ -8,7 +8,7 @@ class Hyperparams:
     batch_size = 32
     hidden_units = 320
     num_blocks = 7
-    num_epochs = 10
+    num_epochs = 20
     lr = 0.0001
     logdir = 'log'
     savedir = 'results'
