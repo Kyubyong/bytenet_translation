@@ -11,4 +11,4 @@ class Hyperparams:
     num_epochs = 10
     lr = 0.0001
     logdir = 'log'
-    savedir = 'ckpt'
+    savedir = 'results'
