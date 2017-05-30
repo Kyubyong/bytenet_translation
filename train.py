@@ -239,7 +239,8 @@ def main():
             if sv.should_stop(): break
             for step in tqdm(range(g.num_batch), total=g.num_batch, ncols=70, leave=False, unit='b'):
                 sess.run(g.train_op)
-               
+            
+            gs = sess.run(g.global_step)   
             sv.saver.save(sess, hp.logdir + '/model_epoch_%02d_gs_%d' % (epoch, gs))
         
 if __name__ == '__main__':
