@@ -20,7 +20,7 @@ A TensorFlow Implementation of Machine Translation In [Neural Machine Translatio
 
 Or if you'd like to use the pretrained model,
 
-  * Download and extract [the pre-trained model files](https://dl.dropboxusercontent.com/u/42868014/bytenet/log.tar.gz), and then run `eval.py`.
+  * Download and extract [the pre-trained model files](https://www.dropbox.com/s/c6b833wxvfkst97/log.tar.gz?dl=0), and then run `eval.py`.
 
 ## Results
 After 15 epochs, I obtained the Bleu score 7.38, which is far from good. Maybe some part in the implementation is incorrect. Or maybe we need more data or a bigger model. Details are available in the `results` folder.
